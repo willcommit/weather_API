@@ -24,8 +24,6 @@ weatherForm.addEventListener('submit', (e) => {
                 messageOne.textContent = 'Weather is ' + data.forecast
                 messageTwo.textContent = 'Temperature is ' + data.temp + '\xB0C'
             }
-
         })
     })
-
 })
